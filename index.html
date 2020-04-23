@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Test 01</title>
-</head>
-<body>
-<h1>Just a Test</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wesly Gatner WDD-230 Portal</title>
+        <link href="css/first.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="content">
+            <header>
+                <h1>Wesly Gatner de Souza</h1>
+            </header>
+            <main>
+                <div class="main-content">
+                    <img src="images/wesly_image.jpg" alt="" class="img">
+                    <h2 class="title-h2">WDD 230: Assignment Portal</h2>
+                    <ul class="list">
+                        <li>Week 02: <a href="#">Assignment Link</a></li>
+                        <li>Week 03: <a href="#">Assignment Link</a></li>
+                    </ul>
+                </div>
+            </main>
+            <footer>
+                <p>&copy; <span id="currentYear"></span>| Wesly Gatner | St. Catarina  | <a href="http://www.byui.edu/online">BYUI Online Learning</a></p>
+                <p>Last Updated: <span id="update"></span></p>
+                <script>
+                    var mod = document.lastModified;
+                    document.getElementById("update").innerHTML = mod;
+                </script>
+
+            </footer>
+        </div>
+    </body>
 </html>
+
+<!--Girassol - name-->
+<!--Lora - Title-->
+<!--Playfair - texts-->

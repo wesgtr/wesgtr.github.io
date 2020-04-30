@@ -14,7 +14,6 @@ footer {
     background: linear-gradient(to bottom right , #000000 34%, cadetblue 100%);
     text-align: center;
     padding: .35rem;
-    border-radius: 10px;
     color: #fff;
 }
 
@@ -24,11 +23,17 @@ header {
 }
 
 img {
-    width: 125px;
-    float: right;
-    margin-top: -5rem;
+    width: 100px;
+    margin-top: 0;
     box-shadow: 0 8px 10px 0 gray;
-    margin-right: 1rem;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.3em!important;
 }
 
 h2 {

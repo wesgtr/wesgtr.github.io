@@ -1,5 +1,21 @@
-/*@media only screen and (min-width: 32.5em){*/
-/*    h1 {*/
-/*        font-size: 2em;*/
-/*    }*/
-/*}*/
+@media only screen and (min-width: 32.5em){
+    h1 {
+        font-size: 2em!important;
+    }
+
+    header, footer {
+        border-radius: 10px;
+    }
+
+    img {
+        width: 125px;
+        float: right;
+        margin-top: -5rem;
+        box-shadow: 0 8px 10px 0 gray;
+        margin-right: 1rem;
+    }
+
+    main {
+        text-align: left;
+    }
+}

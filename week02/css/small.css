@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Lora');
+
+body {
+    font-size: 18px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lora';
+}
+
+h1, h3 {
+    text-align: center;
+    font-family: 'Girassol';
+}
+
+h1{
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: -1em;
+}
+
+h2 {
+    justify-self: stretch;
+    text-align: center;
+    font-family: 'Girassol';
+    padding: 1em;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+a {
+    padding-bottom: 1em;
+    font-family: 'Girassol';
+    justify-self: stretch;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+img {
+    width: 300px;
+    margin-bottom: 2em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2em;
+    text-align: center;
+}
+
+section {
+    padding: 1em;
+    background-color: cadetblue;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px 0 gray;
+    margin-bottom: 2em;
+}

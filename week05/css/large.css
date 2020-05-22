@@ -1,0 +1,13 @@
+@media (min-width: 65em) {
+    article img{
+        width: 60%;
+    }
+
+    article h3{
+        font-size: 1.8em;
+    }
+
+    article p{
+        font-size: 1em;
+    }
+}

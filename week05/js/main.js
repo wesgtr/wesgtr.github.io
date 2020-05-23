@@ -1,5 +1,4 @@
 function toggleMenu () {
-
     var x = document.getElementById("nav-id");
     if (x.style.display === "none") {
 
@@ -9,5 +8,10 @@ function toggleMenu () {
     }
 }
 
-// const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
-// document.getElementById("currentdate").textcontent = new Date().toLocaleDateString ('en-US', options);
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+document.getElementById("current-date").innerHTML = today;

@@ -42,16 +42,18 @@
 
     .end-box{
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .contact-info {
         margin-top: 6em;
-        margin-left: 1em;
+        margin-right: 4em;
     }
 
-    .map{
+    .map {
         display: grid;
-        margin-left: 3em;
+        margin-left: 4em;
         margin-bottom: 2em;
         margin-top: 2em;
     }

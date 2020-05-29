@@ -20,4 +20,16 @@
         position: absolute;
         max-width: 15em;
     }
+
+    .contact-info {
+        margin-top: 6em;
+        margin-right: 4em;
+    }
+
+    .map {
+        display: grid;
+        margin-left: 4em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
 }

@@ -1,0 +1,23 @@
+@media (min-width: 800px) {
+
+    article img{
+        width: 24%;
+    }
+
+    article h3{
+        font-size: 1.8em;
+    }
+
+    article p{
+        font-size: 1em;
+    }
+
+    #weathersummary {
+        top: 20%;
+        left: 1.6em;
+        right: 3em;
+        font-size: 1.4em;
+        position: absolute;
+        max-width: 15em;
+    }
+}

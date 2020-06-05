@@ -1,0 +1,49 @@
+@media (min-width: 800px) {
+
+    article img{
+        width: 24%;
+    }
+
+    article h3{
+        font-size: 1.8em;
+    }
+
+    article p{
+        font-size: 1em;
+    }
+
+    #weathersummary {
+        top: 20%;
+        left: 1.6em;
+        right: 3em;
+        font-size: 1.4em;
+        position: absolute;
+        max-width: 15em;
+    }
+
+    .contact-info {
+        margin-top: 6em;
+        margin-right: 4em;
+    }
+
+    .map {
+        display: grid;
+        margin-left: 4em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery-grid figure:hover {
+        border: 3px solid #009ad8;
+        box-shadow: 0 0 2em #323544;
+        border-radius: 5px;
+    }
+
+    .gallery-grid figure figcaption {
+        display: grid;
+    }
+}

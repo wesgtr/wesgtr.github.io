@@ -74,7 +74,7 @@
                 </div>
                 <div class="inputForm">
                     <label for="rating">Storm Severity: <span id="ratingvalue">5</span></label>
-                    <input type="range" name="rating" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <input type="range" name="rating" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 </div>
                 <div class="inputForm">
                     <label for="area">Storm Region:</label>
@@ -103,7 +103,7 @@
                     </div>
                 </div>
                 <div>
-                    <label class="top" for="additionalInfo">Additional Information: <textarea name="additionalInfo" type="text" id="additionalInfo"></textarea></label>
+                    <label class="top" for="additionalInfo">Additional Information: <textarea name="additionalInfo" id="additionalInfo"></textarea></label>
                 </div>
             </fieldset>
         </div>

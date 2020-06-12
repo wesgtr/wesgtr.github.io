@@ -21,6 +21,10 @@
         width: 5em;
     }
 
+    .forecast {
+        display: contents;
+    }
+
     article{
         margin-top: 3em;
         padding: 0.5em;

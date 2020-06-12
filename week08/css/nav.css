@@ -30,6 +30,10 @@ a {
 footer {
 }
 
+.main-nav a:active {
+    color: #009ad8;
+}
+
 .logo {
     margin: 0;
     font-size: 1.45em;

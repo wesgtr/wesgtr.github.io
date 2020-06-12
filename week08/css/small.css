@@ -237,6 +237,82 @@ iframe{
     font-style: italic;
 }
 
+
+/* Storm Center CSS */
+fieldset {
+    display: block;
+    margin: 1em!important;
+    padding: 1em!important;
+    padding-left: 3em!important;
+    padding-right: 3em!important;
+}
+
+input, label {
+    display:block;
+}
+
+input {
+    margin-bottom: 1em!important;
+    width: 100%;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+label {
+    text-align: left;
+}
+
+select#area {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+label .dangerArea{
+    display: inline-block;
+    text-align: left;
+}
+
+.dangerLabel {
+    text-align: left;
+}
+
+textarea#additionalInfo {
+    width: 100%;
+}
+
+.radioInput {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.formDiv {
+    margin-bottom: 2em;
+}
+
+input.submitBtn {
+    width: 60%;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #009ad8;
+    color: #bfc1c8;
+    border: none;
+    padding: 1em;
+}
+
+input.submitBtn:hover{
+    color: #bfc1c8;
+    background-color: #262936;
+    border: 1px solid #bfc1c8;
+}
+
+/*.dangerArea {*/
+/*    display: block;*/
+/*    text-align: left;*/
+/*}*/
+
+
 /*.colorScheme{*/
 /*    .background{*/
 /*        color: #1e202b;*/

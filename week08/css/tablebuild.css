@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     margin: 0 auto;
-    background: #262936;
 }
 
 main {
-    font-family: 'Roboto';
+    font-family:  Ubuntu, sans-serif;
 }
 
 table {
@@ -27,13 +25,13 @@ thead tr th {
 }
 
 thead tr:first-child {
-    background-color: #87CEFA;
+    background-color: #7fb9c2;
     font-size: 1.6em;
 }
 
 thead tr:last-child {
     color: white;
-    background-color: #4682B4;
+    background-color: #628ca6;
     font-size: 1em;
 }
 
@@ -42,11 +40,11 @@ tbody tr td {
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #E6E6FA;
+    background-color: #e7f0ed;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #F8F8FF;
+    background-color: #e7ffed;
 }
 
 tbody tr:nth-child(5) td:first-child {
@@ -55,11 +53,11 @@ tbody tr:nth-child(5) td:first-child {
 
 td.blue-td {
     color: white;
-    background-color: #4682B4;
+    background-color: #628ca6;
 }
 
 tfoot tr {
-    background-color: #87CEFA;
+    background-color: #7fb9c2;
 }
 
 tfoot tr td {

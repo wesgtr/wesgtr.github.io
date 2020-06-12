@@ -8,5 +8,9 @@ function toggleMenu () {
     }
 }
 
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
+
 var dateString = dayNames[day] + ", " + monthNames[month] + " " + date + ", " + currentYear;
 document.getElementById("current-date").innerHTML = dateString;

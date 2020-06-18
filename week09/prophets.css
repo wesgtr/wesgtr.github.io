@@ -1,0 +1,53 @@
+h1, h2 {
+    text-align: center;
+    color: rebeccapurple;
+    font-family: serif;
+}
+
+main div.cards {
+    padding: 2em;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: .6em;
+}
+
+section {
+    border: 1px solid black;
+    padding: 1em;
+    background-color: cornsilk;
+}
+
+section p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+section img {
+    display: block;
+    margin: 0 auto 1em auto;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+/* M */
+@media only screen and (min-width: 600px) {
+    main div.cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* L */
+@media only screen and (min-width: 1000px) {
+    main div.cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+

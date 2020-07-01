@@ -1,0 +1,355 @@
+h1{
+    font-size: 2.4em;
+    border-bottom: 2px solid #fff;
+}
+
+h2{
+    font-size: 2em;
+    border-bottom: 1px solid #fff;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+p{
+    font-size: .8em;
+}
+
+span{
+    font-size: 1.2em;
+}
+
+
+.main-content{
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    color: #bfc1c8;
+    margin-top: 3em;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+
+/* Plan Website Assignment */
+
+.logo-div{
+    width: 10em;
+    height: 10em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #323544;
+}
+th {
+    background: #262936;
+    color: #fff;
+    font-weight: bold;
+}
+td, th {
+    padding: 6px;
+    border: 2px solid #bfc1c8;
+    text-align: left;
+}
+
+td{
+    color: #1e202b;
+    background-color: #fff;
+    border: 2px solid #bfc1c8;
+}
+
+.main-div {
+    border: 1px solid #323544;
+    padding: 0 1rem;
+    background-color: #262936;
+}
+
+.today-weather{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.today-details p {
+    font-size: 3em;
+}
+
+.today-details img {
+    position: relative;
+    width: 5em;
+}
+
+.forecast5{
+    background-color: #1e202b;
+    border: none;
+}
+
+.forecast5 table {
+    width: 100%;
+}
+.forecast5 tr:nth-of-type(odd) {
+    background: #323544;
+}
+.forecast5 th {
+    background: #262936;
+    color: #fff;
+    font-weight: bold;
+}
+.forecast5 td, th {
+    padding: 6px;
+    border: none;
+    text-align: center;
+}
+
+.forecast5 td{
+    color: #bfc1c8;
+    background-color: #323544;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.forecast5 td img{
+    max-width: 3.5em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forecast {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #bfc1c8;
+    margin: 2rem;
+    padding-bottom: 1.5rem;
+    display: none;
+}
+
+.forecast h3 {
+    color: #fff;
+}
+
+.table-icon {
+    width: 25px;
+}
+
+.article {
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+}
+
+article{
+    margin-top: 3em;
+    padding: 0.5em;
+}
+article img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 5px 5px 5px 2px #323544;
+    margin-bottom: 1em;
+}
+
+.map{
+    display: none;
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+.picture-div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#today-pics {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+#today-pics img {
+    width: 100%;
+}
+
+#today-pics picture {
+    width: 100%;
+}
+
+#weathersummary {
+    position: relative;
+    top: 0.5em;
+    left: 0.6em;
+    right: 3em;
+    border-radius: 15px;
+    background: #323544;
+    border: 2px solid #009ad8;
+    opacity: 0.75;
+    color: #fff;
+    width: 94%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 10px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: auto;
+}
+
+.gallery-grid figure {
+    display: grid;
+    align-content: space-between;
+    justify-content: center;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-grid figure img {
+    display: grid;
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.gallery-grid figure img[data-src] {
+    filter: blur(0.2em);
+}
+
+.gallery-grid figure figcaption {
+    display: none;
+    padding: 1rem;
+    align-items: center;
+    max-width: 270px;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+
+/* Storm Center CSS */
+fieldset {
+    display: block;
+    margin: 1em!important;
+    padding: 1em!important;
+    padding-left: 3em!important;
+    padding-right: 3em!important;
+}
+
+input, label {
+    display:block;
+}
+
+input {
+    margin-bottom: 1em!important;
+    width: 100%;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+label {
+    text-align: left;
+}
+
+select#area {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+label .dangerArea{
+    display: inline-block;
+    text-align: left;
+}
+
+.dangerLabel {
+    text-align: left;
+}
+
+textarea#additionalInfo {
+    width: 100%;
+}
+
+.radioInput {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.formDiv {
+    margin-bottom: 2em;
+}
+
+input.submitBtn {
+    width: 60%;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #009ad8;
+    color: #bfc1c8;
+    border: none;
+    padding: 1em;
+}
+
+input.submitBtn:hover{
+    color: #bfc1c8;
+    background-color: #262936;
+    border: 1px solid #bfc1c8;
+}
+
+
+/* GRID TOWN INDEX */
+div.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    text-align: center;
+}
+div.cards section{
+    padding: 10px;
+    background-color: #1e202b;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+div.townData p:nth-of-type(1){
+    font-style: italic;
+}
+div.cards img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+/*.colorScheme{*/
+/*    .background{*/
+/*        color: #1e202b;*/
+/*    }*/
+/*    .contrast-1{*/
+/*        color:#262936;*/
+/*    }*/
+/*    .contrast-2{*/
+/*        color:#323544;*/
+/*    }*/
+/*    .titles{*/
+/*        color:#fff;*/
+/*    }*/
+/*    .text{*/
+/*        color:#bfc1c8;*/
+/*    }*/
+/*    .blue{*/
+/*        color:#009ad8;*/
+/*    }*/
+/*}*/

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="know the weather in real time">
-    <title>WGS Weather Station - Preston - From WDD230</title>
+    <title>WGS Weather Station - Fish Haven - From WDD230</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
@@ -19,26 +19,27 @@
     <button onclick="toggleMenu()" class="button-menu-toggle">Menu</button>
     <ul class="main-nav" id="nav-id">
         <li><a href="index.html">Home</a></li>
-        <li><a href="preston.html" class="active">Preston</a></li>
+        <li><a href="preston.html">Preston</a></li>
         <li><a href="sodasprings.html">Soda Springs</a></li>
-        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
         <li><a href="stormCenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
     </ul>
 </header>
 <main class="main-content">
     <div class="index-section">
-        <h1> Preston Idaho</h1>
+        <h1>Fish Haven Idaho</h1>
     </div>
 
     <div class="main-div today-weather">
         <div id="today-pics">
             <picture>
-                <source id="400" media="(max-width: 400px)" srcset="imgs/prest-400.jpg">
-                <source id="800" media="(max-width: 800px)" srcset="imgs/prest-800.jpg">
-                <img src="imgs/prest-1200.jpg" alt="prest">
+                <source id="400" media="(max-width: 400px)" srcset="imgs/fish-400.jpg">
+                <source id="800" media="(max-width: 800px)" srcset="imgs/fish-800.jpg">
+                <img src="imgs/fish-1200.jpg" alt="Fish Haven Banner">
             </picture>
             <div id="weathersummary">
+                <!--                <h3>Weather Summary</h3>-->
                 <p>Currently: <span id="desc"></span></p>
                 <p>High Temp: <span id="highTemp"></span>°F</p>
                 <p>Current Temp: <span id="currentTemp"></span>°F</p>
@@ -77,9 +78,9 @@
 
     <div class="main-div article">
         <article>
-            <h3>Preston Castle Tours</h3>
+            <h3>New Fish Season and Lake Rules</h3>
             <p>by author</p>
-            <img src="imgs/preston-castle.jpg" alt="preston castle image">
+            <img src="imgs/fishing-season.jpg" alt="fishing image">
             <div class="article-p">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat interdum varius sit amet mattis vulputate enim. Viverra justo nec ultrices dui. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Lorem ipsum dolor sit amet consectetur. Auctor eu augue ut lectus arcu bibendum. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. Lectus quam id leo in vitae turpis massa sed elementum. Facilisis magna etiam tempor orci eu lobortis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Accumsan tortor posuere ac ut.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat interdum varius sit amet mattis vulputate enim. Viverra justo nec ultrices dui. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Lorem ipsum dolor sit amet consectetur. Auctor eu augue ut lectus arcu bibendum. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. Lectus quam id leo in vitae turpis massa sed elementum. Facilisis magna etiam tempor orci eu lobortis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Accumsan tortor posuere ac ut.</p>
@@ -94,7 +95,7 @@
             <p>Email: contact@wgsweatherstation.com</p>
         </div>
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.7748476038!2d-111.91534427025724!3d42.09974029544806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1552081170669" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://maps.google.com/maps?q=fish%20haven&t=&z=13&ie=UTF8&iwloc=&output=embed" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
 </main>
@@ -103,7 +104,7 @@
     <span id="current-date"></span>
 </footer>
 <script src="js/main.js"></script>
-<script src="js/prestonWeather.js"></script>
+<script src="js/fishhavenWeather.js"></script>
 </body>
 
 </html>

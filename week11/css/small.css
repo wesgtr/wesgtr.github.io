@@ -333,6 +333,14 @@ div.cards img{
 
 }
 
+.events{
+    margin-top: 1.5em;
+    font-size: 1.4em;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 /*.colorScheme{*/
 /*    .background{*/
 /*        color: #1e202b;*/

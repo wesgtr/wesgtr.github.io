@@ -1,5 +1,5 @@
 //Current weather + windchill code
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=4491eb92629e7b5e0ac20b732e39129e";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=f231a64fe0bf673894728e2e53615a71";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -20,7 +20,7 @@ fetch(apiURL)
     });
 
 //Forecast Code
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=f231a64fe0bf673894728e2e53615a71';
 fetch(forecastURL)
     .then((response) => response.json())
     .then((jsObject) => {

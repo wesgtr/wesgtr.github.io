@@ -1,5 +1,5 @@
 //Current weather + windchill code
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=f231a64fe0bf673894728e2e53615a71";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=f231a64fe0bf673894728e2e53615a71";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -20,7 +20,7 @@ fetch(apiURL)
     });
 
 //Forecast Code
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=f231a64fe0bf673894728e2e53615a71';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=f231a64fe0bf673894728e2e53615a71';
 fetch(forecastURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -52,18 +52,18 @@ fetch(requestURL)
         towns.forEach(town => {
             if (town.name == townName) {
                 const events = town.events;
-                let div1 = document.createElement('div');
+                let div = document.createElement('div');
                 let h3 = document.createElement('h3');
                 let hr = document.createElement('hr');
                 h3.innerHTML = `${town.name} Events:`;
-                div1.appendChild(h3);
-                div1.appendChild(hr);
+                div.appendChild(h3);
+                div.appendChild(hr);
                 events.forEach(event => {
                     let p =document.createElement('p');
                     p.textContent = event;
-                    div1.appendChild(p);
+                    div.appendChild(p);
                 });
-                document.getElementById('events').appendChild(div1);
+                document.getElementById('events').appendChild(div);
             }
         });
     });

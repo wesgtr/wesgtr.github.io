@@ -52,18 +52,18 @@ fetch(requestURL)
         towns.forEach(town => {
             if (town.name == townName) {
                 const events = town.events;
-                let div1 = document.createElement('div');
+                let div = document.createElement('div');
                 let h3 = document.createElement('h3');
                 let hr = document.createElement('hr');
                 h3.innerHTML = `${town.name} Events:`;
-                div1.appendChild(h3);
-                div1.appendChild(hr);
+                div.appendChild(h3);
+                div.appendChild(hr);
                 events.forEach(event => {
                     let p =document.createElement('p');
                     p.textContent = event;
                     div1.appendChild(p);
                 });
-                document.getElementById('events').appendChild(div1);
+                document.getElementById('events').appendChild(div);
             }
         });
     });

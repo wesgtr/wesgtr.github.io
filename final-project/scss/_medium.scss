@@ -1,0 +1,147 @@
+header{
+    .logo-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 6em;
+        padding-right: 6em;
+        img {
+            height: 7em;
+            margin-bottom: 0;
+        }
+    }
+}
+nav {
+    li {width: 20%; float: left;}
+    li.active {border: none;}
+    a:hover {border: none;}
+}
+
+main {
+    .home{
+        margin-top: -1.3em;
+        .section-1 {
+            height: 25em;
+            padding: 5em;
+        }
+
+        .section-2 {
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            padding: 1em;
+            h2{
+                font-size: 2em;
+                margin-bottom: 1em;
+                text-decoration: underline;
+            }
+
+            .blocks{
+                display: flex;
+                justify-content: space-between;
+
+                .service-block{
+                    width: 30%;
+                    border: 2px solid green;
+                    border-radius: 10px;
+                    margin-bottom: 1em;
+                    padding: 1em;
+                    span{
+                        border: 3px solid #fff;
+                        margin: 1em;
+                        border-radius: 10px;
+                        padding: 0.2em;
+
+                        a{
+                            text-decoration: none;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-3 {
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            padding: 1em;
+            h2{
+                font-size: 2em;
+                margin-bottom: 1em;
+                text-decoration: underline;
+            }
+
+            .blocks{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 2em;
+
+                .service-block{
+                    width: 30%;
+                    border: 2px solid green;
+                    border-radius: 10px;
+                    margin-bottom: 1em;
+                    padding: 1em;
+                    ul {
+                        font-size: 1.1em;
+                    }
+                    li {
+                        margin-bottom: 0.4em;
+                    }
+                }
+            }
+            span{
+                margin-bottom: 3em;
+            }
+        }
+
+        .section-4{
+            #weathersummary{
+                max-width: 60%;
+                font-size: 1.2em;
+            }
+        }
+
+        .section-5{
+            width: 100%;
+            text-align: center;
+            padding: 1em;
+
+            h2{
+                font-size: 2em;
+                text-decoration: underline;
+            }
+
+            table {
+                font-size: 1.4em;
+            }
+        }
+
+        figure {
+            float: right;
+            width: 48%;
+            margin-left: 2%;
+            padding-bottom: .5rem;
+        }
+    }
+
+    .reservations{
+
+    }
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    img{
+        display: inherit;
+        border-style: none;
+        width: 50%;
+        position: relative;
+    }
+}
+

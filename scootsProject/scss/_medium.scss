@@ -127,8 +127,35 @@ main {
         }
     }
 
-    .reservations{
+    .tours{
+        width: 70%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        .greetings {
+            img{
+                max-width: 35%;
+            }
+        }
+        .info-block {
+            img{
+                width: 80%;
+            }
+        }
+    }
 
+    .contactPage{
+        .maps{
+            .map-frame {
+                width: 60%;
+            }
+        }
+
+        .conta-form {
+            input[type=submit] {
+                margin-left: 32%;
+            }
+        }
     }
 }
 footer {

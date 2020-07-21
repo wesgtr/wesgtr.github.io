@@ -26,7 +26,30 @@
 </nav>
 
 <main>
-
+    <div class="contactPage">
+        <div class="maps">
+            <div class="map-frame">
+                <h2>Scoots #1</h2>
+                <iframe width="400" height="400" id="gmap_canvas1" src="https://maps.google.com/maps?q=Playa%20del%20Carmen-Cozumel%20Ferry%20dock&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <div class="map-frame">
+                <h2>Scoots #2</h2>
+                <iframe width="400" height="400" id="gmap_canvas2" src="https://maps.google.com/maps?q=Terminal%20Puerta%20Maya&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+        <div class="conta-form">
+            <form method="GET" action="thank-you2.html">
+                <fieldset>
+                    <legend>Needing Help?</legend>
+                    <label for="contactName">Full Name: <input type="text" name="name" id="contactName" required pattern="[A-Za-z\s]{5,}"></label>
+                    <label for="contactEmail">Email: <input type="email" name="email" id="contactEmail" required placeholder="example@yourmail.com"></label>
+                    <label for="contactPhone">Phone: <input type="number" name="phone" id="contactPhone" required placeholder="000 000 000 000"></label>
+                    <label for="contactComment">Type your question: <textarea name="Type here" id="contactComment" rows="10"></textarea></label>
+                    <input type="submit" name="submit" value="Contact Me" class="confirmButton">
+                </fieldset>
+            </form>
+        </div>
+    </div>
 
 </main>
 

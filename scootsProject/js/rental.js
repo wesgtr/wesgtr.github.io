@@ -1,11 +1,11 @@
-const requestURL = ``;
+const requestURL = `https://raw.githubusercontent.com/wesgtr/wesgtr.github.io/master/scootsProject/data/dataData.json`;
 fetch(requestURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
-        let rentalData = jsObject['rentalData'];
+        let vehiclesData = jsObject['vehiclesData'];
         let tbody = document.querySelector('#priceTable tbody');
-        rentalData.forEach(data => {
+        vehiclesData.forEach(data => {
             const newRow = document.createElement('tr');
             const td1 = document.createElement('td');
             const td2 = document.createElement('td');

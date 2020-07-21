@@ -10,6 +10,9 @@ nav {
 
 main {
     .home{
+        .section-1{
+            font-size: 2em;
+        }
         .section-2 {
             padding: 2em;
             h2{
@@ -145,6 +148,31 @@ main {
                 border-radius: 10px;
                 padding: 1em;
 
+            }
+        }
+    }
+
+    .tours{
+        width: 60%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        .greetings {
+            img{
+                max-width: 40%;
+            }
+        }
+        .info-block {
+            img{
+                width: 50%;
+            }
+        }
+    }
+
+    .contactPage{
+        .maps{
+            .map-frame {
+                width: 30%;
             }
         }
     }
